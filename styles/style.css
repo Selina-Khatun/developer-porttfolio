@@ -9,7 +9,7 @@
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom  right ,top 10px left 3%;
+    background-position: bottom right, top 10px left 3%;
     background-size: auto 350px, auto 90%;
     /* padding-left: 10px; */
 }
@@ -18,12 +18,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px 0 200px ;
+    margin: 0 0 0 130px;
 }
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-subtitle {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
 .banner-img {
     width: 40%;
-    /* margin-bottom: 3%; */
-    border: solid;
 }
 
 .text-primary {
@@ -37,13 +49,6 @@ nav {
     align-items: center;
 }
 
- /* ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    /* gap: 10%; */
-
-
 nav ul {
     display: flex;
     align-items: center;
@@ -54,6 +59,11 @@ nav li {
     margin-left: 50px;
 }
 
+/* .custom-button.btn-primary {
+    background-color: #FFF8F3;
+    border: solid 2px #FD6E0A;
+    color: #FD6E0A;
+} */
 .btn-primary {
     color: #FFFFFF;
     font-weight: 700;
@@ -63,4 +73,65 @@ nav li {
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
+    margin-right: 15px;
+
+}
+
+.btn-primary:hover {
+    background: #ec6607;
+}
+
+.custom-button.btn-primary:hover {
+    background: #ec6607;
+    color: #FFF8F3;
+}
+
+.custom-button.btn-primary {
+    background-color: #FFF8F3;
+    border: solid 1px #FD6E0A;
+    color: #FD6E0A;
+}
+
+/* about section style */
+.about {
+    background-color: #FFF8F3;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding: 7%;
+}
+
+.section-description {
+    padding: 30px 0;
+    color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-info-container {
+    display: flex;
+}
+
+.info-title {
+    color: var #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
